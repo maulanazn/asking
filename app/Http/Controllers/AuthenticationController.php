@@ -19,4 +19,10 @@ class AuthenticationController extends Controller
             'message' => 'account logged in successfully',
         ], 202);
     }
+
+    public function verifyEmail(): JsonResponse {
+        return response()->json([
+            'message' => 'verifying email.......',
+        ], 202);
+    }
 }

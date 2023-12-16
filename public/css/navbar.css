@@ -1,0 +1,14 @@
+.nav-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    place-content: center;
+    gap: 10px;
+    margin: 12px 0 0 0;
+}
+
+.nav-center a {
+    text-decoration: none;
+    color: #0b4f6c;
+    font-size: 2rem;
+}

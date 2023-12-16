@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: #040f16;
+    font-family: 'Courier New', Courier, monospace;
+}
